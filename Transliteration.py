@@ -13,7 +13,7 @@ from indicnlp.transliterate.unicode_transliterate import ItransTransliterator
 #Konkani(ko),Kannada(ka),Malyalam(ma),Telugu(te),Tamil(ta)
 input_text=('ఏమి చేస్తున్నారు')
 
-# Transliterate from Native language to another language
+# Transliterate from Native language to any other Indian languages
 print(detect(input_text))
 print(UnicodeIndicTransliterator.transliterate(input_text,"te","hi"))
 #Transliterate from Native language to Roman script
